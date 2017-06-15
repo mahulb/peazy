@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/pophead">
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/tile"
+        android:src="@drawable/peazy_tile"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:text="5+"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="3dp"
+        android:paddingEnd="3dp"
+        android:paddingRight="3dp"
+        android:paddingStart="3dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

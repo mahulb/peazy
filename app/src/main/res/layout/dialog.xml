@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the title"
+        android:textStyle="bold"
+        android:textColor="@color/darkGrey"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="18sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/title"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stretch"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/title"
+            android:text="Stretch"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stretchText"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/stretch"
+            android:textStyle="bold"
+            android:text="X road to Y road"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/type"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/stretchText"
+            android:text="Type"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/typeText"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/type"
+            android:textStyle="bold"
+            android:text="Free"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/direction"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/typeText"
+            android:text="Direction"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/directionText"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/direction"
+            android:textStyle="bold"
+            android:text="West"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/directionText"
+            android:text="Timings"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeText"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/time"
+            android:textStyle="bold"
+            android:text="08:00 to 21:00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/availability"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/timeText"
+            android:text="Availability"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/availabilityText"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/availability"
+            android:textStyle="bold"
+            android:text="50-100%"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/availabilityText"
+            android:layout_marginTop="15dp"
+            android:id="@+id/ok"
+            android:textSize="20sp"
+            android:text="OKAY"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/lightBlue"/>
+
+</RelativeLayout>

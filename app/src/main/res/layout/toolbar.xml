@@ -1,0 +1,52 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/AppTheme"
+    android:background="#CC000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:id="@+id/icon"/>
+
+        <AutoCompleteTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="Parking at....."
+            android:textColor="@color/lightGrey"
+            android:textColorHint="@color/darkGrey"
+            android:visibility="visible"
+            android:singleLine="true"
+            android:id="@+id/destination"
+            android:layout_toLeftOf="@+id/icon"
+            android:background="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/veryLightGrey"
+            android:singleLine="true"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@+id/icon"
+            android:layout_centerInParent="true"
+            android:id="@+id/selection" />
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
