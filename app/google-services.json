@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "710612934221",
+    "project_id": "peazy-140219"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710612934221:android:c5bfa74e1df4361f",
+        "android_client_info": {
+          "package_name": "in.peazy.peazy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8RqK4ZyBr2d-uwd7hlR949-GOSgKLOMo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-82319841-2"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
